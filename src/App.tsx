@@ -15,9 +15,6 @@ const [debt, setDebt] = useState<any>()
 
 const [allPayers, setAllPayers] = useLocalStorage<any[]>('matches', [])
 
-localStorage.setItem('payers', JSON.stringify(allPayers))
-
-// JSON.parse(localStorage.getItem("payers") || "") 
 console.log(...allPayers)
 // console.log(JSON.stringify(allUsers))
 
