@@ -3,6 +3,14 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: black ;
+}
+.App{
+  background-color: black;
+}
+.debt-btn{
+  background-color: darkblue;
+  color: white;
 }
 
 *{
