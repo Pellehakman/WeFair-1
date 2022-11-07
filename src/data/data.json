@@ -1,406 +1,96 @@
 [{
-    "payerID": "3lD3Q9APBjjVsbmbI9Wn-",
-    "payerAmount": 98
-}, {
-    "payerID": "_HPVKQRFdI0LYJo4r-qD-",
-    "payerAmount": 92
-}, {
-    "payerID": "k520Zbs-ISi8kiVkYWAbU",
-    "payerAmount": 11
-}, {
-    "payerID": "bbDesjDpJmABH6MlF1f_T",
-    "payerAmount": 12
-}, {
-    "payerID": "drD9KYeIysUsSwHy7Nhmu",
-    "payerAmount": 44
-}, {
-    "payerID": "tYw00YTU9fN5px5dAtQBo",
-    "payerAmount": 14
-}, {
-    "payerID": "WH3kmxF92s-aogx9PXyTn",
-    "payerAmount": 4
-}, {
-    "payerID": "zr7-OK15D6T-7JeYdFpOk",
-    "payerAmount": 39
-}, {
-    "payerID": "J5JOziq5mAKfHKLNAT4r2",
-    "payerAmount": 45
-}, {
-    "payerID": "ETHY6ZEx-M5m6N6lG63eg",
-    "payerAmount": 65
-}, {
-    "payerID": "r6YQsDzddKXZ2-U2Eg_1I",
-    "payerAmount": 61
-}, {
-    "payerID": "-FDs_r5BnoXB6MN4QX-AF",
-    "payerAmount": 77
-}, {
-    "payerID": "sEDcHZlCi8bdpV92GWAYV",
-    "payerAmount": 5
-}, {
-    "payerID": "9gMR-fyY7RaqUX1dfllCX",
-    "payerAmount": 41
-}, {
-    "payerID": "5Gu-TY1ktRm-aFytKW9ua",
-    "payerAmount": 23
-}, {
-    "payerID": "uLaVI_kgdAQLI8OoRy0yj",
-    "payerAmount": 88
-}, {
-    "payerID": "54kr8FPuhMtSNXeGSk2A-",
-    "payerAmount": 12
-}, {
-    "payerID": "KAZQ8QANtRnqesXQ5oeBZ",
-    "payerAmount": 72
-}, {
-    "payerID": "GAkfOMR2jyN_Jof3cBwJn",
-    "payerAmount": 27
-}, {
-    "payerID": "fkl_dZejMUAgm589BT4QQ",
-    "payerAmount": 51
-}, {
-    "payerID": "XbWbcJaKXW090OHOJcsz8",
-    "payerAmount": 16
-}, {
-    "payerID": "L7QaANGU6tJVdy57s6VJC",
-    "payerAmount": 68
-}, {
-    "payerID": "S3YkCqGmzO3jsC93u1669",
-    "payerAmount": 14
-}, {
-    "payerID": "-1KBS3_DKjnBgJ54z5cPq",
-    "payerAmount": 6
-}, {
-    "payerID": "Tft06Au2Qha8NlApWmaAK",
-    "payerAmount": 25
-}, {
-    "payerID": "XqNEq4YdFwyve0mZhClhT",
-    "payerAmount": 24
-}, {
-    "payerID": "vLOgImYesKneRgWFoUspU",
-    "payerAmount": 33
-}, {
-    "payerID": "tjiIBTaz3V3dXQC1mLuwR",
-    "payerAmount": 25
-}, {
-    "payerID": "iktTTiEwFH7DbuyEEUA5K",
-    "payerAmount": 98
-}, {
-    "payerID": "QVYKWsVakGUtk9piJumBj",
-    "payerAmount": 88
-}, {
-    "payerID": "pcJ7DilnqJZm-S18J8R49",
-    "payerAmount": 88
-}, {
-    "payerID": "syC5_2fKVQEsU5A9yl24Q",
-    "payerAmount": 24
-}, {
-    "payerID": "KysB1jEz5P0ABFb4sBHgQ",
-    "payerAmount": 69
-}, {
-    "payerID": "PUrd5qDXjx18YcJ6tUEOw",
-    "payerAmount": 86
-}, {
-    "payerID": "6CUMapZuNRb-AkQgAfKZd",
-    "payerAmount": 9
-}, {
-    "payerID": "pQOldcmIaJcQ25mYIHZEp",
-    "payerAmount": 12
-}, {
-    "payerID": "CAdft5iEzIKec-cuLH7Et",
-    "payerAmount": 21
-}, {
-    "payerID": "47MMr0IP3Xn0CrbG4faAg",
-    "payerAmount": 22
-}, {
-    "payerID": "N-BS37qy4tF-IyK--CKy-",
-    "payerAmount": 28
-}, {
-    "payerID": "KKBDqhyH0Y9d3h3BQLgJY",
-    "payerAmount": 98
-}, {
-    "payerID": "xo3c-GBlOukpwgAq0mk9o",
-    "payerAmount": 35
-}, {
-    "payerID": "kVhndkRBNEX_wzsVp9vY-",
-    "payerAmount": 19
-}, {
-    "payerID": "BQFalM8ytuyHbFNBl4WPr",
-    "payerAmount": 70
-}, {
-    "payerID": "2IxnYqSoteUefEpfl6Tgr",
-    "payerAmount": 42
-}, {
-    "payerID": "CDvbW-0Csto-218EQdHTB",
-    "payerAmount": 15
-}, {
-    "payerID": "A_dMs7PtrVUD-ckNKlGmx",
-    "payerAmount": 16
-}, {
-    "payerID": "qxwsqWsTL78TUl91ksgxs",
-    "payerAmount": 36
-}, {
-    "payerID": "P52SaRuqn7YwxBMTN-SQo",
-    "payerAmount": 70
-}, {
-    "payerID": "PIv43kChgmLSSFXMu3QFt",
-    "payerAmount": 28
-}, {
-    "payerID": "nWFmdvbG06LKvGVq3JJT9",
-    "payerAmount": 35
-}, {
-    "payerID": "1qD0jnYkwJckVmnbTcFJm",
-    "payerAmount": 31
-}, {
-    "payerID": "LedviV2Q5N1qp8-218u-_",
-    "payerAmount": 64
-}, {
-    "payerID": "EAyH9RcCwnVxAib2lkd3v",
-    "payerAmount": 69
-}, {
-    "payerID": "IT1KOpmhxB5sOQdN0rL9M",
-    "payerAmount": 65
-}, {
-    "payerID": "wz_xR72PHB4sdVLKGnYK9",
-    "payerAmount": 48
-}, {
-    "payerID": "B1-BwXBky-IfLjjtzDTup",
-    "payerAmount": 46
-}, {
-    "payerID": "JyMZLEibzBFeeBlBwweqU",
-    "payerAmount": 78
-}, {
-    "payerID": "Y1xeZOYwT0RNNn0RtFQB8",
-    "payerAmount": 15
-}, {
-    "payerID": "UZ_bwHy5NLXSAv_S5YyXH",
-    "payerAmount": 42
-}, {
-    "payerID": "0Ga196ta4Kado3pKVPSBt",
-    "payerAmount": 75
-}, {
-    "payerID": "W28va2Cs6Jb0gxo3FyI6B",
-    "payerAmount": 87
-}, {
-    "payerID": "8EpgeJAXgVhlaH_K6b-WN",
-    "payerAmount": 62
-}, {
-    "payerID": "_G63Nl540pcmJKEwvGuW-",
-    "payerAmount": 94
-}, {
-    "payerID": "urlg-e7s46M6RJMkH2Ybb",
-    "payerAmount": 78
-}, {
-    "payerID": "a2KF2bVxypm1v3a_hQsOe",
-    "payerAmount": 87
-}, {
-    "payerID": "bwehX8flBzEgRDpC9Kbow",
-    "payerAmount": 63
-}, {
-    "payerID": "kYP5g7GmWv5B9bCUIeOyS",
-    "payerAmount": 41
-}, {
-    "payerID": "GrjtTEyFKTH2WDcffa3Sg",
-    "payerAmount": 54
-}, {
-    "payerID": "VzM8trW1ZngdjUX8PvnB0",
-    "payerAmount": 6
-}, {
-    "payerID": "qonZmWb6khMEQKoOe_vKE",
-    "payerAmount": 47
-}, {
-    "payerID": "_zF7CZkEuJRdRf5m54vPK",
-    "payerAmount": 4
-}, {
-    "payerID": "sRU5i6H-9p1cZoWuaXHIH",
-    "payerAmount": 66
-}, {
-    "payerID": "M98-GixkWmcTu_pWK9Br7",
-    "payerAmount": 26
-}, {
-    "payerID": "xLuJdLiS4AOmV_0bhTHfY",
-    "payerAmount": 64
-}, {
-    "payerID": "dHJFqAhBsSwBVqlPAfDsH",
-    "payerAmount": 48
-}, {
-    "payerID": "_y2x01Io32VOFvqH031_n",
-    "payerAmount": 4
-}, {
-    "payerID": "fj_ziwlFxZ59IUsBuHuMv",
-    "payerAmount": 81
-}, {
-    "payerID": "p9Lbb6SBvQhSf3inxyIVi",
-    "payerAmount": 42
-}, {
-    "payerID": "75Jnrojyez0DXPNJASSrU",
-    "payerAmount": 65
-}, {
-    "payerID": "M866vmz9fyPKnIoo_cgiB",
-    "payerAmount": 85
-}, {
-    "payerID": "tdinhRkTNQAk97xXtG9pP",
-    "payerAmount": 29
-}, {
-    "payerID": "PeQWQ0ht01eZBZdD829s-",
-    "payerAmount": 45
-}, {
-    "payerID": "1hpUcDzmRbOm1UGP3DZ1u",
-    "payerAmount": 88
-}, {
-    "payerID": "J2g0lrjdseGZaQ3aX5B_S",
-    "payerAmount": 18
-}, {
-    "payerID": "Yns6vIUy7rgFgpTWIln86",
-    "payerAmount": 80
-}, {
-    "payerID": "8GimNPhErhqkz8ErVjtiG",
-    "payerAmount": 25
-}, {
-    "payerID": "1mRARF-a65qgmkIqKLoDl",
-    "payerAmount": 86
-}, {
-    "payerID": "vk-imOiGOltz2bPAUSshq",
-    "payerAmount": 7
-}, {
-    "payerID": "FCoOdGvCOAL1qF03VBKiv",
-    "payerAmount": 55
-}, {
-    "payerID": "O7gYu3lb4yE5SQxYqCEXs",
-    "payerAmount": 34
-}, {
-    "payerID": "4MpbtSZAUgLYwFstONihr",
-    "payerAmount": 15
-}, {
-    "payerID": "H0NIIyJMhm2QCrgoplfkp",
-    "payerAmount": 21
-}, {
-    "payerID": "UcYAvlEdMw8pDkeA1lmog",
-    "payerAmount": 85
-}, {
-    "payerID": "aSfsGURQE29A7i3snJ40a",
-    "payerAmount": 10
-}, {
-    "payerID": "cUfntc6gdcifPTJpqzWOD",
-    "payerAmount": 54
-}, {
-    "payerID": "skij4tIV-EAztcn0yzr0O",
-    "payerAmount": 76
-}, {
-    "payerID": "y9gDPnF_7gkDKdrTUpCk6",
-    "payerAmount": 82
-}, {
-    "payerID": "Prgn0QnlReEDFFJ4K0bI6",
-    "payerAmount": 22
-}, {
-    "payerID": "QsphftdjdeH6WVr3Y3bll",
-    "payerAmount": 86
-}, {
-    "payerID": "mVhXExN2JcV0UCy0NnmyD",
-    "payerAmount": 25
-}, {
-    "payerID": "5tBo3Cs3kkRsQfHpF_6gA",
-    "payerAmount": 75
-}, {
-    "payerID": "mK5bAO3fH1OIuAE8NvmrG",
-    "payerAmount": 80
-}, {
-    "payerID": "43vN_510vLfcak1PcHW9S",
-    "payerAmount": 48
-}, {
-    "payerID": "pLcaXmoEN1VIRZRsyekO0",
-    "payerAmount": 39
-}, {
-    "payerID": "0u7SMAcsUsoTifwjsGUaP",
-    "payerAmount": 5
-}, {
-    "payerID": "KUblCiW0cqm7Ohzd_RTwC",
-    "payerAmount": 55
-}, {
-    "payerID": "Cw3xYD5wNeggCjx_PelkG",
-    "payerAmount": 88
-}, {
-    "payerID": "_9aBNm0jUrWBmp7Ulf4nt",
-    "payerAmount": 8
-}, {
-    "payerID": "jsfZWTndfVJqFSemEeCxD",
-    "payerAmount": 40
-}, {
-    "payerID": "W6mGjwDlxqu0gYAZOhpJS",
-    "payerAmount": 86
-}, {
-    "payerID": "dquqzOD8Gx0jUvgimLT5x",
-    "payerAmount": 32
-}, {
-    "payerID": "v1Pt0Ox23RVIWCciF8DFa",
-    "payerAmount": 40
-}, {
-    "payerID": "pQm2SoTQ1EWBp4iKBsmIR",
-    "payerAmount": 46
-}, {
-    "payerID": "f2PHUv14Dvjlkm3cbNRsq",
-    "payerAmount": 43
-}, {
-    "payerID": "8k-mgxpps5z9Ee2Wq6rSy",
-    "payerAmount": 1
-}, {
-    "payerID": "SBBtTmNiaZBM3yLvfpTh7",
-    "payerAmount": 51
-}, {
-    "payerID": "S3HmAEer4LvzCa3g49jL3",
-    "payerAmount": 29
-}, {
-    "payerID": "6FjkoFIAD5Nj1KYWVS4FI",
-    "payerAmount": 19
-}, {
-    "payerID": "28OBe9EAa0e3A9HXuzG00",
-    "payerAmount": 29
-}, {
-    "payerID": "5EiJgt3QF8SeDY9rIUBBB",
-    "payerAmount": 57
-}, {
-    "payerID": "zkqgqzh7FqmVx2Z6EnzgT",
-    "payerAmount": 86
-}, {
-    "payerID": "OwSWIB6p_bzXXXvhorLz-",
-    "payerAmount": 93
-}, {
-    "payerID": "KVCd3495B6cziyyUfzvCV",
-    "payerAmount": 88
-}, {
-    "payerID": "G7zyI2OJKBN0G4wwFVKN8",
-    "payerAmount": 45
-}, {
-    "payerID": "VzxMV0eA-UYWn5Bqvjldm",
-    "payerAmount": 83
-}, {
-    "payerID": "fB18afwBWkR3NJyINL6x2",
-    "payerAmount": 35
-}, {
-    "payerID": "THAiGXBJFpGtuAUp-XWF8",
-    "payerAmount": 1
-}, {
-    "payerID": "Q9HFjN1JnIN-71jz5suUk",
-    "payerAmount": 64
-}, {
-    "payerID": "T_ygy-un_u3JWeQ03lHYo",
-    "payerAmount": 62
-}, {
-    "payerID": "QSpub2ShznoCU6pPtr2Cw",
-    "payerAmount": 77
-}, {
-    "payerID": "R-GbIvmxD0iIXGZigMGWX",
-    "payerAmount": 91
-}, {
-    "payerID": "kotFKepRMlywhQDSN_ZcG",
-    "payerAmount": 72
-}, {
-    "payerID": "dtZosbpNiqPJzFj8GFOb0",
-    "payerAmount": 5
-}, {
-    "payerID": "feQ9kFIEuQ-ozgIQGIrp8",
-    "payerAmount": 64
-}, {
-    "payerID": "2r7vBrO2dilJp9P7_nDeG",
-    "payerAmount": 80
+    "payerID": "X4nAQmxzq7CsvyxDWqft2",
+    "payerAmount": 63,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "gGnbkE99tS5Q8SU3Kdq0o",
+    "payerAmount": 95,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "CMcLa5znmC8Yqw4zncRCO",
+    "payerAmount": 47,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "vM2iPt9OaboGBYVkcpPiA",
+    "payerAmount": 86,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "9hiVh4i4Wy2T0K8KPqbch",
+    "payerAmount": 16,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "MNXrcYTnJLsoIhhrtfIp3",
+    "payerAmount": 80,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "jlYni2iD2u5DIFqBS4ZNs",
+    "payerAmount": 62,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "nQinczX1-r4VWzyQ7eyk0",
+    "payerAmount": 91,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "gg5Ncj5RFj87Ww8Sbketl",
+    "payerAmount": 57,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "WMVsPX-37oOX_TgPqkyEw",
+    "payerAmount": 55,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "EWbYpSGQKNEEDX2_Wlucj",
+    "payerAmount": 41,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "TrYSaZR8-yOrySgj7j1Pr",
+    "payerAmount": 25,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "vjj06Yn_0QExeeupUWnlC",
+    "payerAmount": 88,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "1Amcs4hVDrwMunUVXRq0M",
+    "payerAmount": 58,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "J3Ye0wBSp1-box5rfLR9F",
+    "payerAmount": 21,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "_emugVPZ75wbLzFrGPPXA",
+    "payerAmount": 91,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "a2jR_FVHsPg0ohhlnDad5",
+    "payerAmount": 98,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "2-0UyZeP4mJjfOR-t0L0K",
+    "payerAmount": 93,
+    "working": false,
+    "workingFor": ""
+}, {
+    "payerID": "vu-zlYdFmvFscgSuC4-wu",
+    "payerAmount": 45,
+    "working": false,
+    "workingFor": ""
 }]
