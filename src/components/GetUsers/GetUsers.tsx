@@ -18,7 +18,8 @@ const GetUsers = ({setAllUsers}: Props) => {
         }
         setNewUser([...newUser, user])
     }
-        setAllUsers(usersData)
+    let data = usersData
+        setAllUsers(data)
 
     return (
         <div>this is create user
