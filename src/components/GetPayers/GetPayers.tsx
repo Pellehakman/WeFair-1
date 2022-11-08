@@ -1,7 +1,7 @@
 import { nanoid } from 'nanoid';
 import { useState } from 'react';
 import payersData from '../../data/payers.json'
-import Calc from '../Calc/Calc';
+
 
 const GetPayers = () => {
     let allPayers = payersData

@@ -4,7 +4,7 @@ import './App.css'
 import jsonData from './data/data.json'
 import { nanoid } from 'nanoid'
 import useLocalStorage from './components/hooks/use-local-storage';
-import Calc from './components/calc/Calc'
+import Calc from './components/Calc/Calc'
 
 
 

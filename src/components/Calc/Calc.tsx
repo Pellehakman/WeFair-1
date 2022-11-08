@@ -9,41 +9,39 @@ type Props ={
     userDebt: number
 }
 const Calc = () => {
-    const [newDebt, setNewDebt] = useState<number[]>()
+   
+ 
 
     let userData = usersData
 
     let payerData = payersData
+    // console.log(payerData)
+
+    
+
+const newCalc = () => {
+    const [newDebt, setNewDebt] = useState<number[]>()
     console.log(newDebt)
-
-const newCalc = ({userDebt}:Props) => {
-    let payerListlength = payerData.length
-    console.log(payerListlength)
-    if (payerData)
   
-  }
-// const found = payerData.find(element => element.payerAmount > 10);
-// console.log(found)
+   let userDebt = userData.map((f) => f.userDebt)
+   setNewDebt(userDebt)
 
+    for(var i in payerData){
+        var obj = payerData[i];
+        
+         if(obj.payerAmount  ){
+              return console.log('yes')
+        } else{
+            console.log('no')
+        }
+    }
 }
-
-    
-
-
-
-
-    
-  
-
     return (
         <div>
             <header>This is calc page</header>
-<button onClick={newCalc}></button>
+            <button onClick={newCalc}>CALC</button>
             <div>{userData.map((f) => (<p key={f.userID}>UserID: {f.userID} har en debt på {f.userDebt}kr</p>))}</div>
-            <div>{payerData.map((f) => (<p key={f.payerID}>PayerID: {f.payerID} har en tillgång på {f.payerAmount}kr</p>))}</div>
-            
-                
-            
+            <div>{payerData.map((f) => (<p key={f.payerID}>PayerID: {f.payerID} har en tillgång på {f.payerAmount}kr</p>))}</div>         
         </div>
     );
 };
