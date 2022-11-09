@@ -5,46 +5,42 @@ import usersData from '../../data/users.json'
 import payersData from '../../data/payers.json'
 import jsonData from '../../data/data.json'
 import { User } from '../../models/data';
-type Props ={
-    userDebt: number
-}
+
 const Calc = () => {
-    const [newDebt, setNewDebt] = useState<number[]>()
+const [cash, setCash] = useState<string>("")
+console.log(cash)
+let debt = `${cash}`
+let month = 12
+let adminFee = 39
+let startFee = 129
 
-    let userData = usersData
-
-    let payerData = payersData
-    console.log(newDebt)
-
-const newCalc = ({userDebt}:Props) => {
-    let payerListlength = payerData.length
-    console.log(payerListlength)
-    if (payerData)
-  
-  }
-// const found = payerData.find(element => element.payerAmount > 10);
-// console.log(found)
-
+let userOne = {
+    kr: 4000,
+    name: 'Pelle'
 }
 
-    
+let userFee = Math.floor(Math.round(debt / month + adminFee))
+let totalEnd = adminFee * month + debt + startFee
+let needMoney = debt - userOne.kr
+
+let procentOf = Math.floor(Math.round(userOne.kr / debt * 100))
 
 
+let winAmount = Math.floor(Math.floor(adminFee * month * procentOf))
 
-
-    
-  
 
     return (
         <div>
-            <header>This is calc page</header>
-<button onClick={newCalc}></button>
-            <div>{userData.map((f) => (<p key={f.userID}>UserID: {f.userID} har en debt på {f.userDebt}kr</p>))}</div>
-            <div>{payerData.map((f) => (<p key={f.payerID}>PayerID: {f.payerID} har en tillgång på {f.payerAmount}kr</p>))}</div>
-            
-                
-            
-        </div>
+            <div></div>
+            <span>{userOne.name} köper en produkt för <input onChange={(e => setCash(e.target.value))}/> kr</span> <br/>
+            <span>{userOne.name} har en startavgift på {startFee}kr och varje månad en adminavgift på {adminFee}kr varje gång</span><br/>
+            <span>{userOne.name} betalar {userFee} kr/mån i {month} månader inkl. adminavgift</span> <br />
+            <span>{userOne.name} betalar i slutändan, {totalEnd}kr totalt</span> <br/>
+            <br />
+            <span>Du hjälper till med {userOne.kr}kr, Men, det behövs resterande {needMoney}kr kvar för betala {userOne.name} skuld</span><br/>
+            <span>vinstern för dig är {winAmount / 100}kr</span><br/>   
+            <span>Du betalar {procentOf} % av skulden</span> 
+        </div> 
     );
 };
 
