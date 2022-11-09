@@ -5,44 +5,43 @@ import usersData from '../../data/users.json'
 import payersData from '../../data/payers.json'
 import jsonData from '../../data/data.json'
 import { User } from '../../models/data';
-type Props ={
-    userDebt: number
-}
+
 const Calc = () => {
-   
- 
+const [newDebt, setNewDebt] = useState<string>("")
+const [newPay, setNewPay] = useState<string>("")
 
-    let userData = usersData
+let debt = `${newDebt}`
+let month = 12
+let adminFee = 39
+let startFee = 129
 
-    let payerData = payersData
-    // console.log(payerData)
-
-    
-
-const newCalc = () => {
-    const [newDebt, setNewDebt] = useState<number[]>()
-    console.log(newDebt)
-  
-   let userDebt = userData.map((f) => f.userDebt)
-   setNewDebt(userDebt)
-
-    for(var i in payerData){
-        var obj = payerData[i];
-        
-         if(obj.payerAmount  ){
-              return console.log('yes')
-        } else{
-            console.log('no')
-        }
-    }
+let userOne = {
+    kr: `${newPay}`,
+    name: 'Pelle'
 }
+
+let userFee = Math.floor(Math.round(debt / month + adminFee))
+let totalEnd = adminFee * month + debt + startFee
+let needMoney = debt - userOne.kr
+
+let procentOf = Math.floor(Math.round(userOne.kr / debt * 100))
+
+
+let winAmount = Math.floor(Math.floor(adminFee * month * procentOf))
+
+
     return (
         <div>
-            <header>This is calc page</header>
-            <button onClick={newCalc}>CALC</button>
-            <div>{userData.map((f) => (<p key={f.userID}>UserID: {f.userID} har en debt på {f.userDebt}kr</p>))}</div>
-            <div>{payerData.map((f) => (<p key={f.payerID}>PayerID: {f.payerID} har en tillgång på {f.payerAmount}kr</p>))}</div>         
-        </div>
+            <div></div>
+            <span>{userOne.name} köper en produkt för <input onChange={(e => setNewDebt(e.target.value))}/> kr</span> <br/>
+            <span>{userOne.name} har en startavgift på {startFee}kr och varje månad en adminavgift på {adminFee}kr varje gång</span><br/>
+            <span>{userOne.name} betalar {userFee} kr/mån i {month} månader inkl. adminavgift</span> <br />
+            <span>{userOne.name} betalar i slutändan, {totalEnd}kr totalt</span> <br/>
+            <br />
+            <span>Du hjälper till med <input onChange={(e => setNewPay(e.target.value))}/>kr, Men, det behövs resterande {needMoney}kr kvar för betala {userOne.name} skuld</span><br/>
+            <span>vinstern för dig är {winAmount / 100}kr</span><br/>   
+            <span>Du betalar {procentOf} % av skulden</span> 
+        </div> 
     );
 };
 
