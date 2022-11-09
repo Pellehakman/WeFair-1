@@ -7,15 +7,16 @@ import jsonData from '../../data/data.json'
 import { User } from '../../models/data';
 
 const Calc = () => {
-const [cash, setCash] = useState<string>("")
-console.log(cash)
-let debt = `${cash}`
+const [newDebt, setNewDebt] = useState<string>("")
+const [newPay, setNewPay] = useState<string>("")
+
+let debt = `${newDebt}`
 let month = 12
 let adminFee = 39
 let startFee = 129
 
 let userOne = {
-    kr: 4000,
+    kr: `${newPay}`,
     name: 'Pelle'
 }
 
@@ -32,12 +33,12 @@ let winAmount = Math.floor(Math.floor(adminFee * month * procentOf))
     return (
         <div>
             <div></div>
-            <span>{userOne.name} köper en produkt för <input onChange={(e => setCash(e.target.value))}/> kr</span> <br/>
+            <span>{userOne.name} köper en produkt för <input onChange={(e => setNewDebt(e.target.value))}/> kr</span> <br/>
             <span>{userOne.name} har en startavgift på {startFee}kr och varje månad en adminavgift på {adminFee}kr varje gång</span><br/>
             <span>{userOne.name} betalar {userFee} kr/mån i {month} månader inkl. adminavgift</span> <br />
             <span>{userOne.name} betalar i slutändan, {totalEnd}kr totalt</span> <br/>
             <br />
-            <span>Du hjälper till med {userOne.kr}kr, Men, det behövs resterande {needMoney}kr kvar för betala {userOne.name} skuld</span><br/>
+            <span>Du hjälper till med <input onChange={(e => setNewPay(e.target.value))}/>kr, Men, det behövs resterande {needMoney}kr kvar för betala {userOne.name} skuld</span><br/>
             <span>vinstern för dig är {winAmount / 100}kr</span><br/>   
             <span>Du betalar {procentOf} % av skulden</span> 
         </div> 
